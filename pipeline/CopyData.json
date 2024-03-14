@@ -59,6 +59,22 @@
 						"type": "DatasetReference"
 					}
 				]
+			},
+			{
+				"name": "Waiting test",
+				"type": "Wait",
+				"dependsOn": [
+					{
+						"activity": "Copy data Demo",
+						"dependencyConditions": [
+							"Completed"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 5
+				}
 			}
 		],
 		"annotations": [],
