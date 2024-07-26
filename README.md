@@ -1,2 +1,2 @@
 # adftest
-Testing ADF CI/CD Connection
+Testing ADF CI/CD Connections
